@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+html {
+  min-height: 100dvh;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.three-container {
+  height: 750px;
+}
