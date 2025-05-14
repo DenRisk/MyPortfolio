@@ -2,7 +2,7 @@ import { useGLTF, useTexture } from '@react-three/drei'
 import * as THREE from 'three'
 
 export function Model() {
-  const { scene } = useGLTF('/models/Roomv11.glb')
+  const { scene } = useGLTF('/models/Room_2.glb')
   const texture01 = useTexture('/textures/TexturePack01.jpg')
   const texture02 = useTexture('/textures/TexturePack02.jpg')
   const texture03 = useTexture('/textures/TexturePack03.jpg')
